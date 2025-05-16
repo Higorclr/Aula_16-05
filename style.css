@@ -1,0 +1,26 @@
+.dire {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+  
+.dire img {
+    width: 350px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+  
+.dire.inv {
+    flex-direction: row-reverse;
+}
+  
+.dire.inv img {
+    width: 350px;
+    height: auto;
+    margin-left: 0;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+  
